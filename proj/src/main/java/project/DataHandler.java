@@ -16,8 +16,8 @@ import com.faunadb.client.FaunaClient;
 // class DataHandler POUR L'implémentation de l'interface HttpHandler afin de gérer les requêtes HTTP reçues par le serveur
 public class DataHandler implements HttpHandler {
 
-    private int WaterLevel; // Variable pour stocker le niveau d'eau
-    private String Quality; // Variable pour stocker la qualité de l'eau
+    private int WaterLevel; // Variable prive pour stocker le niveau d'eau
+    private String Quality; // Variable pour prive stocker la qualité de l'eau
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
